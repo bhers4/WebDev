@@ -1,4 +1,39 @@
+html
+{
+	height: 100%;
+}
+
 body
 {
 	background: white;
+	font-family: Lato;
+}
+
+#content
+{
+	text-align: center;
+	padding-top: 25%;
+	color: white;
+	text-shadow: 0px 1px 1px white;
+}
+
+h1
+{
+	font-weight: 700;
+	font-size: 3em;
+}
+
+hr
+{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+body
+{
+	background: url("https://images.unsplash.com/photo-1521064243942-224549f23d65?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d42aa5f406790d133d6151f72d50c3a2&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
 }
