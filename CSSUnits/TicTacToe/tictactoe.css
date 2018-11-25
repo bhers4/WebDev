@@ -1,0 +1,33 @@
+h1
+{
+	color: black;
+	text-align: center;
+}
+
+table
+{
+	margin: auto;
+}
+
+td
+{	
+	width:100px;
+	height:100px;
+}
+
+.Side
+{
+	border-bottom: 2px solid;
+}
+
+.Middle
+{
+	border-style: solid;
+	border-width: 0px 2px 2px 2px;
+}
+
+#BotMiddle
+{
+	border-style: solid;
+	border-width: 0px 2px 0px 2px;
+}

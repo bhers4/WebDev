@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<!-- action - where the form send data to -->
+<!-- method - what http method -->
+<h1>Login</h1>
+<!-- <form>
+<label>Username:<input type="text" placeholder="username"></label>
+<label>Password:<input type="password" placeholder="password"></label>
+<input type="Submit">
+</form> -->
+
+<form>
+<label for="username">Email:</label>
+<input id="username" type="Email" placeholder="Email" required>
+<label for="password">Password:</label>
+<input id="password" type="password" placeholder="password" required>
+<input type="Submit">
+</form>
+
+<br>
+<h2>Next Section of Inputs</h2>
+
+<h3>Do you like Cats or Dogs</h3>
+
+<form>
+	<label for="Dogs">Dogs</label>
+	<input name="PetChoice" id = "Dogs" type="radio"value="Dog">
+	<label for="Cats">Cats</label>
+	<input name="PetChoice" id = "Cats" type="radio" value="Cat">
+
+	<p> Whats your favorite Color</p>
+	<select name="ChooseColor">
+		<option value="G">Green</option>
+		<option value="B">Blue</option>
+		<option value="R">Red</option>
+	</select>
+
+	<textarea rows=10 cols="20"></textarea>
+
+	<button>Go!</button>
+	<!-- <input type="checkbox"></input> -->
+</form>
+
+
+
+</body>
+</html>

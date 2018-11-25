@@ -1,0 +1,42 @@
+body
+{
+	width: 60%;
+	margin: 20px auto 10px auto;	
+	border: 20px grey solid;
+	border-color: #24248f;
+}
+
+p
+{
+	margin-left: 2%;
+	font-family: Raleway;
+}
+
+h2
+{
+	margin-left: 2%;
+	font-family: Raleway;
+}
+
+.post
+{
+	margin-bottom: 5px;
+}
+.date
+{
+	color: #00ccff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+hr
+{
+	width: 96%;
+	color: #F1F1F1;
+}
+
+.firstp
+{
+	border-left: 5px #24248f solid;
+	padding-left: 5px;
+}

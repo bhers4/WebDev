@@ -1,0 +1,76 @@
+h1 
+{
+	color: rgb(80,150,255);
+/*	border-color: rgb(0,204,255);
+	border-width: 5px;
+	border-style: solid;*/
+
+	/*border: 3px solid rgb(0,204,255);*/
+}
+li
+{
+	color: rgb(0,153,0);
+}
+h4
+{
+	color: rgb(0,153,0);
+	/*background: rgb(255,100,80);*/
+}
+body
+{
+	background: url(https://i.imgur.com/TNEJezP.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#Groceries
+{
+	color: red;
+}
+
+.Infected
+{
+	color: blue;
+}
+
+.completed
+{
+	text-decoration: line-through;
+}
+
+
+/*star - selects everything*/
+
+/**
+{
+	border: 1px solid grey;
+}
+*/
+
+/*
+Descendant Selectors eg. all links in a li but not all links in the document so 
+all links that are descendants of Lis 
+*/
+li a
+{
+	color: blue;
+}
+
+/*adajacent selector eg all ul's after a h4*/
+h4 + ul
+{
+	color: blue;
+}
+
+/*attribute selector*/
+a[href="hhtp://www.google.com"]
+{
+	color: blue;
+}
+
+/*nth type*/
+ul:nth-of-type(3)
+{
+	color: blue;
+}
+
