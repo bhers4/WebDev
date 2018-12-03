@@ -9,3 +9,39 @@ body{
     font-size: 1.5rem;
     font-weight: 100;
 }
+
+#mainnavbar
+{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainnavbar .nav-link
+{
+    color:white;
+}
+
+#mainnavbar .nav-link:hover
+{
+    color:#ea1c2c;
+}
+
+#Museumtext span
+{
+    color: red;
+}
+
+#Museumtext h1
+{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+    #Museumtext h1
+    {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
