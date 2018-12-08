@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ben Hers</title>
+
+
+	<!-- Include Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Include JQuery (Jquery has to be first) -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  	crossorigin="anonymous"></script>
+
+	<!-- Include Javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Include Javascript File -->
+	<script src="functions.js"></script>
+
+	<!-- Include FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- Include CSS file -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+		
+	<!-- Include Skillbar CSS file -->
+	<link rel="stylesheet" type="text/css" href="skillbar.css">
+
+</head>
+<body>
+
+	<!-- Header -->
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-lg-2 col-md-4 col-sm-12">
+				<div id="ProfilePicture" class="card">
+					<img src="https://i.imgur.com/TNEJezP.jpg" class="img-thumbnail">
+				</div>
+			</div>
+
+			<div class="col-lg-5 col-md-4 col-sm-12">
+					<h1>Benjamin Hers</h1>
+					<h4><i class="fas fa-envelope"></i> bhers4@gmail.com</h3>
+					<h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h3>
+			</div>
+			<div class="col-lg-5 col-md-4 col-sm-12">
+					<h1>Find Me</h1>
+					<h4><i class="fab fa-github-square"></i> bhers4</h3>
+					<h4><i class="fab fa-linkedin"></i> Benjamin Hers</h3>
+			</div>
+		</div>
+	</div>
+
+	<!-- About and Education Side by Side -->
+	<div class="container">
+		<div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<!-- About -->
+					<h2>About</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente debitis voluptates, porro quidem odio magni itaque impedit repudiandae deserunt! Consectetur obcaecati labore neque quos rem eum asperiores minima nihil dolor?</p>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<!-- About -->
+					<h2>Education</h2>
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-sm-12">
+							<div id="UBCLogo">
+								<!-- UBC Image -->
+								<img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Programming Languages and Skillbars -->
+	<div id = "programmingskills" class="container">
+		<h1>Programming Languages</h1>
+
+		<!-- TO Have more control put every skill into the bootstrap grid -->
+
+		<div class="skillbar clearfix " data-percent="100%">
+			<!-- <div class="skillbar-title" style="background: #d35400;"><span>Python</span></div> -->
+			<div class="skillbar-title" style="background: #e67e22;"><span>Python</span></div>
+			<div class="skillbar-bar" style="background: #e67e22;"></div>
+			<div class="skill-bar-percent">100%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="80%">
+		<div class="skillbar-title" style="background: #2980b9;"><span>C</span></div>
+		<div class="skillbar-bar" style="background: #3498db;"></div>
+		<div class="skill-bar-percent">80%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="75%">
+		<div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
+		<div class="skillbar-bar" style="background: #2c3e50;"></div>
+		<div class="skill-bar-percent">75%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="60%">
+			<div class="skillbar-title" style="background: #333333;"><span>Matlab</span></div>
+			<div class="skillbar-bar" style="background: #525252;"></div>
+			<div class="skill-bar-percent">60%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="50%">
+			<div class="skillbar-title" style="background: #124e8c;"><span>HTML/CSS</span></div>
+			<div class="skillbar-bar" style="background: #4288d0;"></div>
+			<div class="skill-bar-percent">50%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="30%">
+			<div class="skillbar-title" style="background: #46465e;"><span>SQL</span></div>
+			<div class="skillbar-bar" style="background: #5a68a5;"></div>
+			<div class="skill-bar-percent">30%</div>
+		</div> <!-- End Skill Bar -->
+
+		<div class="skillbar clearfix " data-percent="30%">
+			<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
+			<div class="skillbar-bar" style="background: #2ecc71;"></div>
+			<div class="skill-bar-percent">30%</div>
+		</div> <!-- End Skill Bar -->
+
+	</div>
+
+</body>
+</html>

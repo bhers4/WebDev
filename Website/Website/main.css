@@ -1,0 +1,44 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  /* background: url(https://i.imgur.com/TNEJezP.jpg); */
+}
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.jumbrotron
+{
+	height:400px;
+} 
+
+.jumbotron h1
+{
+	color: #0077B5;
+}
+
+/* #programmingskills
+{
+	margin-left: 20%;
+} */
+
+#ProfilePicture
+{
+	border: 0;	
+}
+
+.fa-linkedin
+{
+	color: #0077B5;
+}
+
+.fa-map-marker-alt
+{
+	color: #4285F4;
+}
+
+.UBCLogo
+{
+	border: 0;
+}
