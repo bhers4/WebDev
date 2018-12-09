@@ -3,16 +3,20 @@
 <head>
 	<title>Ben Hers</title>
 
-
 	<!-- Include Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<!-- Include JQuery (Jquery has to be first) -->
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  	crossorigin="anonymous"></script>
+	<!--JQuery-->
+	<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
 
-	<!-- Include Javascript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--PopperJS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!--BootstrapJS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<!-- Include Javascript File -->
 	<script src="functions.js"></script>
@@ -29,102 +33,220 @@
 </head>
 <body>
 
-	<!-- Header -->
-	<div class="jumbotron">
-		<div class="row">
-			<div class="col-lg-2 col-md-4 col-sm-12">
-				<div id="ProfilePicture" class="card">
-					<img src="https://i.imgur.com/TNEJezP.jpg" class="img-thumbnail">
-				</div>
-			</div>
+	<!--NavBar-->
+	<nav id="mainnavbar" class="navbar  fixed-top navbar-dark bg-dark navbar-expand-md">
+		<a href="#" class="navbar-brand">Ben Hers</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navLinks">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="" class="nav-link">Home</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-			<div class="col-lg-5 col-md-4 col-sm-12">
-					<h1>Benjamin Hers</h1>
-					<h4><i class="fas fa-envelope"></i> bhers4@gmail.com</h3>
-					<h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h3>
-			</div>
-			<div class="col-lg-5 col-md-4 col-sm-12">
-					<h1>Find Me</h1>
-					<h4><i class="fab fa-github-square"></i> bhers4</h3>
-					<h4><i class="fab fa-linkedin"></i> Benjamin Hers</h3>
+	<!-- Header -->
+	<div id = "jumboheader" class="jumbotron">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6 col-sm-12">
+						<h1>Benjamin Hers</h1>
+						<h4><i class="fas fa-envelope"></i> bhers4@gmail.com</h4>
+						<h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h4>
+				</div>
+				<div class="col-md-6 col-sm-12">
+						<h1>Find Me</h1>
+						<h4><i class="fab fa-github-square"></i> <a href="https://github.com/bhers4">bhers4</a></h4>
+						<h4><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-hers/">Benjamin Hers</a></h4>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- About and Education Side by Side -->
-	<div class="container">
+	<div id="aboutedu" class="container-fluid">
 		<div>
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 					<!-- About -->
 					<h2>About</h2>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente debitis voluptates, porro quidem odio magni itaque impedit repudiandae deserunt! Consectetur obcaecati labore neque quos rem eum asperiores minima nihil dolor?</p>
+					<p>
+						My areas of interest are Robotics, Machine Learning, and Software Development.
+						I am passionate about learning new technologies and building projects from robots to software tools.
+						Looking for an internship for 4 months starting May 2019.
+					</p>
 				</div>
 				<div class="col-md-6 col-sm-12">
 					<!-- About -->
 					<h2>Education</h2>
 					<div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div id="UBCLogo">
 								<!-- UBC Image -->
 								<img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
 							</div>
 						</div>
+
+						<div class="col-lg-9 col-md-6 col-sm-12">
+							<h1>University of British Columbia</h1>
+							<h4>Electrical Engineering</h4>
+							<h4>Graduation: April 2020</h4>
+
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+
+
+
 	<!-- Programming Languages and Skillbars -->
-	<div id = "programmingskills" class="container">
-		<h1>Programming Languages</h1>
+	<div id = "programmingskills" class="container-fluid">
+		<div class="row">
+			<div id="skills" class="col-lg-4 col-md-12">
+			<h2>Programming Proficiency</h2>
 
-		<!-- TO Have more control put every skill into the bootstrap grid -->
+			<!-- TO Have more control put every skill into the bootstrap grid -->
+			<div class="skillbar clearfix" data-percent="100%">
+				<!-- <div class="skillbar-title" style="background: #d35400;"><span>Python</span></div> -->
+				<div class="skillbar-title" style="background: #e67e22;"><span>Python</span></div>
+				<div class="skillbar-bar" style="background: #e67e22;"></div>
+				<div class="skill-bar-percent">100%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="100%">
-			<!-- <div class="skillbar-title" style="background: #d35400;"><span>Python</span></div> -->
-			<div class="skillbar-title" style="background: #e67e22;"><span>Python</span></div>
-			<div class="skillbar-bar" style="background: #e67e22;"></div>
-			<div class="skill-bar-percent">100%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="80%">
+			<div class="skillbar-title" style="background: #2980b9;"><span>C</span></div>
+			<div class="skillbar-bar" style="background: #3498db;"></div>
+			<div class="skill-bar-percent">80%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="80%">
-		<div class="skillbar-title" style="background: #2980b9;"><span>C</span></div>
-		<div class="skillbar-bar" style="background: #3498db;"></div>
-		<div class="skill-bar-percent">80%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="75%">
+			<div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
+			<div class="skillbar-bar" style="background: #2c3e50;"></div>
+			<div class="skill-bar-percent">75%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="75%">
-		<div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
-		<div class="skillbar-bar" style="background: #2c3e50;"></div>
-		<div class="skill-bar-percent">75%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="60%">
+				<div class="skillbar-title" style="background: #333333;"><span>Matlab</span></div>
+				<div class="skillbar-bar" style="background: #525252;"></div>
+				<div class="skill-bar-percent">60%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="60%">
-			<div class="skillbar-title" style="background: #333333;"><span>Matlab</span></div>
-			<div class="skillbar-bar" style="background: #525252;"></div>
-			<div class="skill-bar-percent">60%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="50%">
+				<div class="skillbar-title" style="background: #124e8c;"><span>HTML/CSS</span></div>
+				<div class="skillbar-bar" style="background: #4288d0;"></div>
+				<div class="skill-bar-percent">50%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="50%">
-			<div class="skillbar-title" style="background: #124e8c;"><span>HTML/CSS</span></div>
-			<div class="skillbar-bar" style="background: #4288d0;"></div>
-			<div class="skill-bar-percent">50%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="40%">
+				<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
+				<div class="skillbar-bar" style="background: #2ecc71;"></div>
+				<div class="skill-bar-percent">40%</div>
+			</div> <!-- End Skill Bar -->
 
-		<div class="skillbar clearfix " data-percent="30%">
-			<div class="skillbar-title" style="background: #46465e;"><span>SQL</span></div>
-			<div class="skillbar-bar" style="background: #5a68a5;"></div>
-			<div class="skill-bar-percent">30%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="skillbar clearfix " data-percent="30%">
+				<div class="skillbar-title" style="background: #46465e;"><span>SQL</span></div>
+				<div class="skillbar-bar" style="background: #5a68a5;"></div>
+				<div class="skill-bar-percent">30%</div>
+			</div> <!-- End Skill Bar -->
+			</div>
 
-		<div class="skillbar clearfix " data-percent="30%">
-			<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
-			<div class="skillbar-bar" style="background: #2ecc71;"></div>
-			<div class="skill-bar-percent">30%</div>
-		</div> <!-- End Skill Bar -->
+			<div class="col-lg-4 col-md-6">
+				<h2>Software Frameworks</h2>
+				<ul>
+					<li>NodeJS</li>
+					<li>MongoDB</li>
+					<li>Linux</li>
+					<li>Bootstrap</li>
+					<li>Unreal Engine</li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<h2>Machine Learning Frameworks</h2>
+				<ul>
+					<li>Tensorflow</li>
+					<li>PyTorch</li>
+					<li>OpenCV</li>
+					<li>OpenAI</li>
+					<li>Scikit-Learn</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
+	<!--<a class="modal-text" data-toggle="modal" data-target="#netgear"><img src="images/netgear1.png" alt="netgear"></a>-->
+
+	<div class="experiencebackground">
+		<div id = "Experience" class="container-fluid container_stretch text-center">
+			<h1 class="display-3">Experience</h1>
+			<div class="whitebackgroundben">
+				<div class="row justify-content-center">
+
+					<div class="col-md-4 Cadex mx-5">
+							<div class="row justify-content-center">
+								<div class="col-md-10">
+								<a class="modal-text" data-toggle="modal" data-target="#CadexModal"><img class="img-thumbnail center-block" src="cadex.jpeg" alt=""></a>
+								</div>
+							</div>
+							<h1>Cadex Electronics Inc.</h1>
+							<h4>Research Engineer Intern</h4>
+						</div>
+
+						<div class="col-md-4 Cadex mx-5">
+							<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "tbotspic" class="img-thumbnail center-block" src="tbots.jpg" alt=""></a>
+							<h1>UBC Thunderbots</h1>
+							<h4>Electrical Co-Lead</h4>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="CadexModal" tabindex="-1" role="dialog" aria-labelledby="CadexTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="CadexTitle">Cadex Electronics Inc.</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="TbotsModal" tabindex="-1" role="dialog" aria-labelledby="TbotsTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="TbotsTitle">UBC Thunderbots</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
