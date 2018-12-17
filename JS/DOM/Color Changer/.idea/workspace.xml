@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92d7dc82-417a-4d97-9d3d-ec9c29c86389" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/ControlFlow.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/ControlFlow/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/Forloops.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/Forloops/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/GuessingGame/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/GuessingGame/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/IncludeJS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/IncludeJS/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/WhileloopProblemSet/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit1/WhileloopProblemSet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Website/Website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Website/Website/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="92d7dc82-417a-4d97-9d3d-ec9c29c86389" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,22 +99,20 @@
       <option name="presentableId" value="Default" />
       <updated>1544946455849</updated>
       <workItem from="1544946456980" duration="1299000" />
+      <workItem from="1545017777342" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1299000" />
+    <option name="totallyTimeSpent" value="1909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17281349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1564805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -152,6 +120,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -161,17 +133,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
         </state>
       </provider>
     </entry>
