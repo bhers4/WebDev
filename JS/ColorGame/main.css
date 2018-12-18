@@ -1,0 +1,35 @@
+body{
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
+
+#strip
+{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+    align-content: center;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.extreme
+{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
