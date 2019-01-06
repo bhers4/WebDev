@@ -1,0 +1,12 @@
+<% include partials/header %>
+<!--Changed header so you need to add /head and body so you can add custom stylesheets-->
+</head>
+<body>
+
+<h1> Create a new campground</h1>
+<form action="/campgrounds" method="post">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="image" placeholder="image url">
+    <button>Submit</button>
+</form>
+<% include partials/footer %>
