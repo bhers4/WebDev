@@ -16,7 +16,7 @@ app.use(bodyparser.urlencoded({extended:true}));
 app.set("view engine","ejs");
 
 app.get("/",function(req,res){
-    console.log("Main Page");
+    // console.log("Main Page");
     res.render("landing");
 });
 
@@ -36,7 +36,7 @@ app.get("/campgrounds/new",function(req,res){
 });
 
 app.get("/campgrounds",function(req,res){
-    console.log("Campgrounds");
+    // console.log("Campgrounds");
     res.render("campgrounds",{campgrounds: campgrounds});
 });
 

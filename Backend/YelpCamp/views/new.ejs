@@ -1,12 +1,32 @@
 <% include partials/header %>
 <!--Changed header so you need to add /head and body so you can add custom stylesheets-->
+<link type="text/css" rel="stylesheet" href="/new.css">
 </head>
 <body>
 
-<h1> Create a new campground</h1>
-<form action="/campgrounds" method="post">
-    <input type="text" name="name" placeholder="name">
-    <input type="text" name="image" placeholder="image url">
-    <button>Submit</button>
-</form>
+<% include partials/navbar %>
+<div class="container">
+    <div class="row">
+        <!--Colt uses inline style: width: 30%; margin:0 auto;-->
+        <div class="col-12 text-center">
+            <h1 id="newh1"> Create a new campground</h1>
+        </div>
+        <div id="forms">
+            <form action="/campgrounds" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="image" placeholder="image url">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success btn-lg btn-block">Submit</button>
+                </div>
+            </form>
+            <a href="/" class="btn btn-primary btn-lg">Go back</a>
+        </div>
+    </div>
+
+</div>
+
 <% include partials/footer %>

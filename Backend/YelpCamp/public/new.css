@@ -1,0 +1,16 @@
+#newh1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#forms{
+    width: 50%;
+    margin: 0 auto;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80") no-repeat;
+    background-size: cover;
+}
+
+
